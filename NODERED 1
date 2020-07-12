@@ -1,0 +1,9 @@
+if(msg.payload.output.generic[0].response_type=="image"){
+    msg.url = msg.payload.output.generic[0].source
+    msg.payload = msg.payload.output.generic[0].title
+}
+else{
+    msg.url="https://t3.ftcdn.net/jpg/02/20/14/38/240_F_220143804_fc4xRygvJ8bn8JPQumtHJieDN4ORNyjs.jpg"
+msg.payload = msg.payload.output.text[0];
+}
+return msg;
