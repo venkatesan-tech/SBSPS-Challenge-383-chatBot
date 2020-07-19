@@ -1,7 +1,7 @@
 # SmartBridgeProject
 
 Hai every one this is my first project in SmartBridge,
-my project is about chatbot for tourist in america:
+my project is about chatbot for tourist guide in america:
 Step 1: to create account in IBM.
 step 2:then I am  install the watson studio. 
 step 3:In there you have to first given the name of your chatBot then first you train the  Intents after that train entities then at last train watson assistant.
